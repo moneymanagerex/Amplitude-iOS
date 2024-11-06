@@ -15,7 +15,7 @@ let package = Package(
         .library(name: "Amplitude", targets: ["Amplitude"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/amplitude/analytics-connector-ios.git", from: "1.0.0")
+        .package(url: "git@github.com:amplitude/analytics-connector-ios.git", from: "1.0.0")
     ],
     targets: [
         .target(
